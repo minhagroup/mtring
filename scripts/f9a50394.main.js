@@ -1,0 +1,1 @@
+$(document).ready(function(){$("#btn-submit").bind("click",function(a){a.preventDefault(),$("#main-form").slideUp();var b=$("#dropdown-contries").val(),c=$("#dropdown-phones").val();$("."+b+"."+c).slideDown()})});
