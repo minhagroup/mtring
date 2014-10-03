@@ -1,4 +1,0 @@
-mtring
-======
-
-MTringPlatinum.com
