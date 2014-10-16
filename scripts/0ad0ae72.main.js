@@ -1,1 +1,0 @@
-$(document).ready(function(){$(".btn-phone").bind("click",function(a){a.preventDefault(),$("#main-form").slideUp();var b=$(this).data("country"),c=$(this).data("phone");$("."+b+"."+c).slideDown()}),$(".dialer-panel .close").bind("click",function(a){a.preventDefault(),$("#main-form").slideDown(),$(".dialer-panel").slideUp()})});
